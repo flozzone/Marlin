@@ -46,3 +46,40 @@ Currently we are working with the Cura Slicer. Prusa slicer should be slightly b
 
 There might be the need for special G-Code to be entered in the slicer to start up out printer. This
 is the place where we will collect them.
+
+## Roadmap
+
+### Octoprint on a RaspberryPI
+
+Octoprint is a print server where the printer is connected to. It accepts sliced gcode over WiFi or
+LAN.
+
+Advantages:
+
+* No SD-card handling all the time
+* Direct printing from the slicer
+* Provides ability to connect a camera
+
+### Printer Enclosure
+
+Advantages:
+
+* Keep dust away from printer
+* Raise print area temperature to printing temperature. Improves bed adhesion.
+* Safer transportation, especially if printer is moved from home to home.
+* Allows to build a storage box underneath the printer
+* Allows to keep the power supply and controller to be cooled from outside the print area,
+  since the heated print area would heat up the electronics too.
+* Lower the noise from the printer
+* Filament spool can be mounted on the enclosure
+
+Disadvantages:
+
+* It will be heavier
+* It will be bigger: Taller for the storage box and slightly wider and deeper to fit the printer.
+
+Points to consider when building:
+
+* It should be possible to easily take out the printer from the enclosure for modifications
+* The display should be reachable from outside the print area, since it should stay closed
+  while printing to keep up with the temperature.
